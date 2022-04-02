@@ -2,6 +2,9 @@
 # frozen_string_literal: true
 
 module ShopifyAPI
+  class AdminVersions
+  end
+
   SUPPORTED_ADMIN_VERSIONS = T.let([
     "unstable",
     "2022-04",
